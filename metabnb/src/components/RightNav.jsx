@@ -27,6 +27,20 @@ const Ul = styled.ul`
     }
   }
 
+
+  @media only screen and (min-width: 1200px){
+    li {
+        font-size: 20px;
+        font-weight: 400;
+        color: #434343;
+        line-height: 25px;
+        margin: 1rem;
+        margin-top: 0.5rem;
+        
+
+    }
+}
+
 `
 
 
@@ -41,7 +55,7 @@ const RightNav = ({ open }) => {
             <li>Place to stay</li>
             <li>NFTs</li>
             <li>Community</li>
-            <li>Connect wallet</li>
+            <li className="xl:hidden lg:hidden md:hidden">Connect wallet</li>
         </Ul>
      );
 }
