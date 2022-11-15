@@ -40,7 +40,7 @@ const CardTwo = () => {
         <div className="xl:flex justify-center gap-4 mt-4 mb-16 ml-10 xl:mr-2 md:grid md:grid-cols-2">
             <img className="mb-4" src={imgM} alt="" />
             <img className="mb-4" src={imgO} alt="" />
-            <img className="mb-4" src={imgN} alt="" />
+            <img src={imgN} alt="" />
             <img src={imgP} alt="" />
         </div>
 
