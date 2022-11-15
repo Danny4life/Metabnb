@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Metabnb/static/css/main.1a9dd44e.css",
+    "main.js": "/Metabnb/static/js/main.813e901e.js",
+    "static/media/img12.png": "/Metabnb/static/media/img12.ed981442ddc8c3e9dae4.png",
+    "static/media/frameB.png": "/Metabnb/static/media/frameB.5ed3b8089caab6edac31.png",
+    "static/media/framesix.jpg": "/Metabnb/static/media/framesix.798951b4a9a709b3ffa7.jpg",
+    "static/media/frameK.png": "/Metabnb/static/media/frameK.d756ce1255b0abf6001a.png",
+    "static/media/frameG.jpg": "/Metabnb/static/media/frameG.a57943f2eaf07bd7aae0.jpg",
+    "static/media/framethree.jpg": "/Metabnb/static/media/framethree.a57943f2eaf07bd7aae0.jpg",
+    "static/media/frameO.jpg": "/Metabnb/static/media/frameO.ba226efc1126cbbbf45c.jpg",
+    "static/media/frameD.jpg": "/Metabnb/static/media/frameD.aacc639f1277bfe29f59.jpg",
+    "static/media/frameeight.jpg": "/Metabnb/static/media/frameeight.aacc639f1277bfe29f59.jpg",
+    "static/media/frameL.jpg": "/Metabnb/static/media/frameL.d035504bcebddeb85abc.jpg",
+    "static/media/frameI.jpg": "/Metabnb/static/media/frameI.596f270ace175159cb27.jpg",
+    "static/media/frameM.jpg": "/Metabnb/static/media/frameM.1d32cdc0add5d68927e3.jpg",
+    "static/media/frameP.jpg": "/Metabnb/static/media/frameP.5e99b7f821cdac859033.jpg",
+    "static/media/frameH.jpg": "/Metabnb/static/media/frameH.a223d88be2734c150da9.jpg",
+    "static/media/framefour.jpg": "/Metabnb/static/media/framefour.a223d88be2734c150da9.jpg",
+    "static/media/frameN.jpg": "/Metabnb/static/media/frameN.601b1c3ee7a514f05ba4.jpg",
+    "static/media/frameF.jpg": "/Metabnb/static/media/frameF.76f7de77610288a30b5f.jpg",
+    "static/media/frametwo.jpg": "/Metabnb/static/media/frametwo.76f7de77610288a30b5f.jpg",
+    "static/media/frameA.jpg": "/Metabnb/static/media/frameA.3f5a9f7d2688ce9c1df3.jpg",
+    "static/media/framefive.jpg": "/Metabnb/static/media/framefive.3f5a9f7d2688ce9c1df3.jpg",
+    "static/media/frameC.jpg": "/Metabnb/static/media/frameC.519a3d104b28da5b1ae1.jpg",
+    "static/media/frameseven.jpg": "/Metabnb/static/media/frameseven.519a3d104b28da5b1ae1.jpg",
+    "static/media/frameJ.jpg": "/Metabnb/static/media/frameJ.d373b5efa3844bdd2493.jpg",
+    "static/media/frameE.jpg": "/Metabnb/static/media/frameE.f82f350fce1ad719bcfd.jpg",
+    "static/media/frameone.jpg": "/Metabnb/static/media/frameone.f82f350fce1ad719bcfd.jpg",
+    "static/media/imgthree.jpg": "/Metabnb/static/media/imgthree.561cf560737ec9be441d.jpg",
+    "static/media/imgtwo.jpg": "/Metabnb/static/media/imgtwo.2f56b4577357d50562b3.jpg",
+    "static/media/imgone.jpg": "/Metabnb/static/media/imgone.7aa1aa72ccd808e311b9.jpg",
+    "static/media/imgfour.jpg": "/Metabnb/static/media/imgfour.970804be2c5d90cf218c.jpg",
+    "index.html": "/Metabnb/index.html",
+    "main.1a9dd44e.css.map": "/Metabnb/static/css/main.1a9dd44e.css.map",
+    "main.813e901e.js.map": "/Metabnb/static/js/main.813e901e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a9dd44e.css",
+    "static/js/main.813e901e.js"
+  ]
+}
