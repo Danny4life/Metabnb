@@ -1,6 +1,9 @@
 import Logo from "../logo/Logo";
 import Burger from "./Burger";
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import Modal from "./Modal";
 
 
 const Nav = styled.nav`
@@ -44,7 +47,6 @@ const Nav = styled.nav`
 
     a {
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
-        //text-align: center;
         align-items: center;
         display: flex;
         align-content: center;
@@ -52,16 +54,11 @@ const Nav = styled.nav`
         font-weight: 400;
         color: #FFFFFF;
         line-height: 20px;
-        justify-content: center;
-        
-        
+        justify-content: center;    
     }
 
     
 }
-
-
-
 
 @media (max-width: 768px) {
     a {
@@ -74,14 +71,18 @@ const Nav = styled.nav`
 
 
 const Navbar = () => {
+
+    const [openModal, setOpenModal] = useState(false);
     return ( 
         <Nav className="flex">
             <div className="flex mt-2 xl:mt-3.5 xl:ml-24">
                 <Logo className="logo" />
             </div>
             <Burger />
-            <a href="/" className="xl:mt-3.5 xl:w-44 xl:h-12 xl:rounded-lg xl:mr-20 md:rounded-lg md:w-44 md:h-12 md:mt-3.5">Connect wallet</a>
-                
+            <Link onClick={() => setOpenModal(true)} className="anchor xl:mt-3.5 xl:w-44 xl:h-12 xl:rounded-lg xl:relative xl:left-9 md:rounded-lg md:w-44 md:h-12 md:mt-3.5">Connect wallet</Link>
+            <div className="">
+            <Modal open={openModal} onClose={() => setOpenModal(false)} />
+            </div>        
         </Nav>
      );
 }

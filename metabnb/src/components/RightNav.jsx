@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const Ul = styled.ul`
@@ -8,6 +9,7 @@ const Ul = styled.ul`
 
     li {
     padding: 18px 10px;
+    cursor: pointer;
   }
 
 
@@ -46,13 +48,15 @@ const Ul = styled.ul`
 
 const RightNav = ({ open }) => {
 
+  const navigate = useNavigate();
+
 
 
 
     return ( 
         <Ul open={open}>
-            <li>Home</li>
-            <li>Place to stay</li>
+            <li onClick={() => navigate("/Metabnb")}>Home</li>
+            <li onClick={() => navigate("/PlaceToStay")}>Place to stay</li>
             <li>NFTs</li>
             <li>Community</li>
             <li className="xl:hidden lg:hidden md:hidden">Connect wallet</li>
