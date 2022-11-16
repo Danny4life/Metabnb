@@ -8,7 +8,7 @@ const Ul = styled.ul`
     flex-flow: row nowrap;
 
     li {
-    padding: 18px 10px;
+    padding: 14px 10px;
     cursor: pointer;
   }
 
@@ -59,7 +59,7 @@ const RightNav = ({ open }) => {
             <li onClick={() => navigate("/PlaceToStay")}>Place to stay</li>
             <li>NFTs</li>
             <li>Community</li>
-            <li className="xl:hidden lg:hidden md:hidden">Connect wallet</li>
+            <li className="xl:hidden lg:hidden md:hidden w-44 ml-2 h-12 rounded-lg" style={{background: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)"}}>Connect wallet</li>
         </Ul>
      );
 }

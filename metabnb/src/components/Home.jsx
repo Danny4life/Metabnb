@@ -10,6 +10,7 @@ import Opensea from "../logo/Opensea";
 import img12 from "../images/img12.png";
 import CardOne from "./CardOne";
 
+
 const Section = styled.section`
 
     * {
@@ -66,8 +67,11 @@ const Section = styled.section`
 
 const Home = () => {
 
+    
+
     return ( 
         <>
+        
             <Section className="">
                 <div classname="">
                     <div className="xl:flex xl:justify-between xl:mr-24 md:flex md:justify-center">

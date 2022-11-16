@@ -10,7 +10,7 @@ const Modal = ({ open, onClose }) => {
         return null;
     }
     return ( 
-        <div onClick={onClose} className="" style={{background: "blue"}}>
+        <div onClick={onClose}>
             <div onClick={(e) => {
                 e.stopPropagation();
             }} className="max-w-xl w-full h-80 fixed top-1/4 left-1/3 bg-white rounded-2xl" style={{color: "#333333"}}>

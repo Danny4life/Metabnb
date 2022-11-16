@@ -79,7 +79,7 @@ const Navbar = () => {
                 <Logo className="logo" />
             </div>
             <Burger />
-            <Link onClick={() => setOpenModal(true)} className="anchor xl:mt-3.5 xl:w-44 xl:h-12 xl:rounded-lg xl:relative xl:left-9 md:rounded-lg md:w-44 md:h-12 md:mt-3.5">Connect wallet</Link>
+            <Link onClick={() => setOpenModal(true)} className="xl:mt-3.5 xl:w-44 xl:h-12 xl:rounded-lg xl:relative xl:left-9 md:rounded-lg md:w-44 md:h-12 md:mt-3.5">Connect wallet</Link>
             <div className="">
             <Modal open={openModal} onClose={() => setOpenModal(false)} />
             </div>        
